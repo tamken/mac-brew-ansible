@@ -1,0 +1,21 @@
+---
+# file: ~/setup/roles/homebrew_cask/vars/main.yml
+
+packages:
+  - { name: alfred, state: present }
+  - { name: iterm2, state: present }
+  - { name: google-japanese-ime, state: present }
+  - { name: google-chrome, state: present }
+  - { name: firefox, state: present }
+  - { name: visual-studio-code, state: present }
+  - { name: coteditor, state: present }
+  - { name: vagrant, state: present }
+  - { name: virtualbox, state: present }
+  - { name: slack, state: present }
+  - { name: postman, state: present }
+  - { name: font-ricty-diminished, state: present }
+  - { name: cheatsheet, state: present }
+  - { name: avg-antivirus, state: present }
+  - { name: dbeaver-community, state: present }
+  - { name: java, state: present }
+
