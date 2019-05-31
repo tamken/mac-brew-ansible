@@ -18,4 +18,5 @@ packages:
   - { name: avg-antivirus, state: present }
   - { name: dbeaver-community, state: present }
   - { name: java, state: present }
+  - { name: the-unarchiver, state: present }
 
