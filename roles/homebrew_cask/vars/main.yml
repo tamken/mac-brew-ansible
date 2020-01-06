@@ -19,4 +19,9 @@ packages:
   - { name: dbeaver-community, state: present }
   - { name: java, state: present }
   - { name: the-unarchiver, state: present }
+  - { name: dropbox, state: present }
+  - { name: keepassx, state: present }
+  - { name: docker, state: present }
+  - { name: google-drive-file-stream, state: present }
+  - { name: clipy, state: present }
 

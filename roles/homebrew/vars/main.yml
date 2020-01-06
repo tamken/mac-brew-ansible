@@ -14,4 +14,11 @@ packages:
   - { name: vim, state: present }
   - { name: tree, state: present }
   - { name: openssl, state: present }
+  - { name: re2ce, state: present }
+  - { name: bison, state: present }
+  - { name: libxml2, state: present }
+  - { name: autoconf, state: present }
+  - { name: automake, state: present }
+  - { name: tig, state: present }
+  - { name: composer, state: present }
 
