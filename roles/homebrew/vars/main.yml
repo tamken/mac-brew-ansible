@@ -20,5 +20,10 @@ packages:
   - { name: autoconf, state: present }
   - { name: automake, state: present }
   - { name: tig, state: present }
-  - { name: composer, state: present }
+#  - { name: composer, state: present }
+  - { name: asdf, state: present }
+  - { name: awscli, state: present }
+  - { name: curl, state: present }
+  - { name: fontforge, state: present }
+  - { name: jq, state: present }
 
