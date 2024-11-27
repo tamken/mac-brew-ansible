@@ -1,11 +1,11 @@
 ---
 # file: ~/setup/roles/homebrew/vars/main.yml
 
-taps:
-  - homebrew/cask
-  - homebrew/cask-versions
-  - homebrew/cask-fonts
-  - homebrew/core
+# taps:
+#  - homebrew/cask
+#  - homebrew/cask-versions
+#  - homebrew/cask-fonts
+#  - homebrew/core
 
 packages:
   - { name: zsh, state: present }
@@ -14,7 +14,7 @@ packages:
   - { name: vim, state: present }
   - { name: tree, state: present }
   - { name: openssl, state: present }
-  - { name: re2ce, state: present }
+  - { name: re2c, state: present }
   - { name: bison, state: present }
   - { name: libxml2, state: present }
   - { name: autoconf, state: present }
